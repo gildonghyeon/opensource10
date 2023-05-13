@@ -1,5 +1,4 @@
 def bm_match(txt: str, pat: str) -> int:
-    """보이어 무어법에 의한 문자열 검색"""
     skip = [None] * 256  
 
     for pt in range(256):
