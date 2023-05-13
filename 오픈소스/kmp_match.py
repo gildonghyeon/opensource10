@@ -1,5 +1,4 @@
 def kmp_match(txt: str, pat: str) -> int:
-    """KMP법에 의한 문자열 검색"""
     pt = 1  
     pp = 0  
     skip = [0] * (len(pat) + 1)  
