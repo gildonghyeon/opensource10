@@ -1,5 +1,4 @@
 def bf_match(txt: str, pat: str) -> int:
-    """브루트 포스법으로 문자열 검색"""
     pt = 0  
     pp = 0  
 
